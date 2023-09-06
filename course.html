@@ -18,15 +18,22 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <!-- <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"> -->
+
+  <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="/assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -36,7 +43,8 @@
     <div class="container d-flex align-items-center">
 
       <div class="logo me-auto">
-        <h1><a href="index.html">Rabii Academy</a></h1>
+        <h1><a href="/index.html">𝓡𝓪𝓫𝓲𝓲 𝓐𝓬𝓪𝓭𝓮𝓶𝔂</a></h1>
+        <!-- <h1><a href="index.html">𝓡𝓪𝓫𝓲𝓲 𝓐𝓬𝓪𝓭𝓮𝓶𝔂Rabii Academy</a></h1> -->
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.jpg" alt="" class="img-fluid"></a> -->
       </div>
@@ -45,15 +53,17 @@
         <ul>
           <!-- <li><a class="nav-link scrollto active" href="/">首頁</a></li> -->
           <li><a class="nav-link scrollto " href="/">首頁</a></li>
-          <li class="dropdown "><a href="/course"><span>課程</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a class="nav-link scrollto " href="/about.html">學院簡介</a></li>
+          <li class="dropdown "><a href="/course.html"><span>課程</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               
-              <li><a class="nav-link scrollto" href="/beginner_earspa">初級掏耳課程</a></li>
+              <li><a class="nav-link scrollto" href="/course/perfume.html">韓式天然精油香水課程</a></li>
               
-              <li><a class="nav-link scrollto" href="/advance_earspa">高級掏耳課程</a></li>
+              <li><a class="nav-link scrollto" href="/course/skincare.html">天然護膚品課程</a></li>
               
             </ul>
           </li>
+          <li><a class="nav-link scrollto " href="/contact_us.html">聯絡我們</a></li>
           <!-- <li><a class="nav-link scrollto" href="">Services</a></li>
           <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
           <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
@@ -64,170 +74,117 @@
 
       <div class="header-social-links d-flex align-items-center">
         <!-- <a href="#" class="twitter"><i class="bi bi-twitter"></i></a> -->
+        <!-- <a href="https://wa.me/85266541288" class="facebook" target="_blank"><i class="bi bi-whatsapp"></i></a> -->
         <a href="https://wa.me/85266541288" class="facebook" target="_blank"><i class="bi bi-whatsapp"></i></a>
         <a href="https://www.instagram.com/rabii_earspa/" class="instagram" target="_blank"><i class="bi bi-instagram" target="_blank"></i></a>
+        <a href="mailto: rabiicare@gmail.com" class="instagram" target="_blank"><i class="bi bi-envelope-at" target="_blank"></i></a>
         <!-- <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a> -->
       </div>
 
     </div>
   </header><!-- End Header -->
 
-    <main id="main">
+  <main id="main">
+  <br/>
+  <br/>
 
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
-      <div class="container">
+  <!-- ======= Portfolio Section ======= -->
+<section id="portfolio" class="portfolio">
+    <div class="container">
 
-        <div class="section-title" data-aos="fade-up">
-          <h2>課程</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      <div class="section-title" data-aos="fade-up">
+        <h2>課程</h2>
+        <p>Rabii Academy 為多個國際機構培訓及考核中心，
+          提供一系列國際認可專業課程，
+          學員完成後可獲得國際認可資格，
+          適合創業，轉職，技能提升，
+          日後更可銜接成為專業導師，可開辦教學課程或成為助教，
+          一級級助你踏上事業發展的階梯
+          </p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+          <ul id="portfolio-flters">
+            <li data-filter="*" class="filter-active">全部</li>
+            <li data-filter=".filter-taste">調香</li>
+            <li data-filter=".filter-ear">掏耳</li>
+            <li data-filter=".filter-face">小顏矯正</li>
+            <li data-filter=".filter-offer">優惠</li>
+          </ul>
         </div>
+      </div>
 
-        <div class="row">
-          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">全部</li>
-              <li data-filter=".filter-app">初級</li>
-              <li data-filter=".filter-card">高級</li>
-              <li data-filter=".filter-web">優惠</li>
-            </ul>
+      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+        
+        <div class="col-lg-4 col-md-6 portfolio-item filter-taste">
+          <div class="portfolio-wrap">
+            <img src="/assets/img/portfolio/course_pic_1_1.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>韓式天然精油香水課程</h4>
+              <!-- <h4>韓式天然精油香水課程</h4> -->
+              <!-- <p>App</p> -->
+            </div>
+            <div class="portfolio-links">
+              <a href="/assets/img/portfolio/course_pic_1_1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="韓式天然精油香水課程"><i class="bx bx-plus"></i></a>
+              <a href="/course/perfume.html" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
           </div>
         </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/e_coure_promo.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>初級掏耳課程</h4>
-                <!-- <p>App</p> -->
-              </div>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/e_coure_promo.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="初級掏耳課程"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
+        
+        <div class="col-lg-4 col-md-6 portfolio-item filter-taste">
+          <div class="portfolio-wrap">
+            <img src="/assets/img/portfolio/course_pic_2_1.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>天然護膚品課程</h4>
+              <!-- <h4>韓式天然精油香水課程</h4> -->
+              <!-- <p>App</p> -->
+            </div>
+            <div class="portfolio-links">
+              <a href="/assets/img/portfolio/course_pic_2_1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="天然護膚品課程"><i class="bx bx-plus"></i></a>
+              <a href="/course/skincare.html" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-              </div>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>App</p>
-              </div>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
-              </div>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
-              </div>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
-              </div>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
-              </div>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
-              </div>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-              </div>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
         </div>
+        
+        <div class="col-lg-4 col-md-6 portfolio-item filter-offer">
+          <div class="portfolio-wrap">
+            <img src="/assets/img/portfolio/SOFFER_1.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>國際認證調香課程組合優惠</h4>
+              <!-- <h4>韓式天然精油香水課程</h4> -->
+              <!-- <p>App</p> -->
+            </div>
+            <div class="portfolio-links">
+              <a href="/assets/img/portfolio/SOFFER_1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="國際認證調香課程組合優惠"><i class="bx bx-plus"></i></a>
+              <a href="/special_offer_perfume_free_200.html" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 portfolio-item filter-offer">
+          <div class="portfolio-wrap">
+            <img src="/assets/img/portfolio/SOFFER_2.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>課程優惠</h4>
+              <!-- <h4>韓式天然精油香水課程</h4> -->
+              <!-- <p>App</p> -->
+            </div>
+            <div class="portfolio-links">
+              <a href="/assets/img/portfolio/SOFFER_2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="課程優惠"><i class="bx bx-plus"></i></a>
+              <a href="/skincare" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+        </div>
+        
 
       </div>
-    </section><!-- End Portfolio Section -->
+    </div>
+</section><!-- End Portfolio Section -->
 
-  </main><!-- End #main -->
+
+</main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
 <footer id="footer">
@@ -237,13 +194,14 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="footer-info">
-              <h3>Rabii Earspa</h3>
+              <h3>Rabii Academy</h3>
               <p>
-                <strong>地址:</strong> 觀塘 <br><br>
                 <!-- 觀塘 <br>
-                NY 535022, USA<br><br> -->
-                <strong>Whatsapp:</strong> +852 66541288<br>
-                <strong>Instagram:</strong> rabii_earspa<br>
+                  NY 535022, USA<br><br> -->
+                  <strong>電話 / Whatsapp:</strong> <a href="https://wa.me/85266541288" target="_blank">+852 66541288</a> <br>
+                  <strong>Instagram:</strong> <a href="https://www.instagram.com/rabii_earspa/" target="_blank">rabii_care</a> <br>
+                  <strong>Email:</strong> <a href = "mailto: rabiicare@gmail.com">rabiicare@gmail.com</a> <br>
+                  <strong>地址:</strong> 觀塘開源道54號豐利中心6樓616A室 <br><br>
               </p>
               <!-- <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -256,10 +214,12 @@
           </div>
 
           <div class="col-lg-4 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4>網址</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="/">首頁</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/course">課程</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/about.html">學院簡介</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/">課程</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/contact_us.html">聯絡我們</a></li>
             </ul>
           </div>
 
@@ -267,9 +227,9 @@
             <h4>課程</h4>
             <ul>
               
-              <li><i class="bx bx-chevron-right"></i> <a href="/beginner_earspa">初級掏耳課程</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/course/perfume.html">韓式天然精油香水課程</a></li>
               
-              <li><i class="bx bx-chevron-right"></i> <a href="/advance_earspa">高級掏耳課程</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/course/skincare.html">天然護膚品課程</a></li>
               
             </ul>
           </div>
@@ -289,7 +249,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Rabii Earspa</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Rabii Academy</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
@@ -305,15 +265,15 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/assets/vendor/aos/aos.js"></script>
+  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
   <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="/assets/js/main.js"></script>
 
 </body>
 

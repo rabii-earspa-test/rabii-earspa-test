@@ -826,6 +826,7 @@ section {
 
 .portfolio-details .portfolio-description {
   padding-top: 30px;
+  position: relative;
 }
 
 .portfolio-details .portfolio-description h2 {
@@ -1633,4 +1634,24 @@ section {
   text-align: center;
   font-size: 13px;
   color: #364146;
+}
+
+
+/* customized */
+.btn-contact {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 28px;
+  border-radius: 3px;
+  transition: 0.5s;
+  color: #fff;
+  background: #009cea;
+}
+
+.btn-contact:hover {
+  background: #008bd1;
 }
